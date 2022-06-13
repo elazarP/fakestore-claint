@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.body {
+  display: flex;
+  padding-top: 35px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mine {
+  border: 1px solid black;
+}
+
+.cart{
+  text-align: center;
+  background-color: #dcc9c9;
+  width: 400px;
+  margin-top: 10px;
+  z-index: 3;
+}
+.categ {
+  text-transform: capitalize;
+  font-size: 40px;
+  border: 3px solid rgb(141, 118, 118);
+  text-align: center;
+  margin: 35px;
+  width: 350px;
+  height: 320px;
+  padding: 20px;
+  background-color: darkgray;
+  box-shadow: -50px 26px 12px 9px rgba(0,0,0,0.47);
+}
+.categ span{
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.categ:hover{
+  transform: scale(1.05);
+  background-color: rgb(142, 125, 125);
+}
+
+.categ span:hover{
+  color: white;
+
+}
+.CatList{
+  display: flex;
+}
+
+
+a {
+  text-decoration: none;
+}
+a:any-link {
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.imgCategory {
+  opacity: 0.5;
+  height: 150px;
+  width: 150px;
+}
+
+.navCategory {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.divItem {
+  background-color: #676060;
+  margin: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.5s;
+  border: 5px solid black;
+  width: 300px;
+  min-height: 400px;
+  color: #dcc9c9;
+}
+
+.param {
+  font-size: 70px;
+  margin: 0;
+}
+
+.divItem:hover {
+  cursor: pointer;
+  background-color: rgb(200, 172, 172);
+  color: #e9cbcb;
+  transform: scale(1.05);
+  border: 5px solid white;
+}
+
+.divItem:hover img {
+  opacity: 1;
+}
+
+.itemList {
+  margin: auto;
+  padding: 25px;
+  margin-top: 50px;
+  width: 50%;
+  background-color: azure;
+  border: 5px solid #676060;
+}
+
+.itemList span img {
+  height: 250px;
+  width: 250px;
+}
+
+.itemList span img:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+.itemList h2{
+  border-top: 1px solid black;
+}
+.itemList .sps{
+  background-color: #f1f1f1;
+  border: 2px solid rgb(132, 132, 42);
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto;
+}
+
+
+.hadder {
+  height: 105px;
+  background-color: azure;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid rgba(209, 198, 142, 0.844);
+  box-shadow: 1px 4px 4px 4px gray;
+}
+
+.hadder span {
+  font-size: 60px;
+}
+
+.hadder a {
+  font-size: 40px;
+  margin: 15px;
+  text-decoration: none;
+}
+.cating{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.ap{
+  display: flex;
+}
